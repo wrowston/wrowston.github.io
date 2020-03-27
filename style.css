@@ -63,7 +63,7 @@ img {
     line-height: 26px;
 }
 
-.about-link a:hover {
+a:hover {
     color: blue;
 }
 
