@@ -1,7 +1,6 @@
 body {
     font-family: San Francisco, Helvetica, Arial, sans-serif;
     width: 100%;
-    padding: 0 30px;
 }
 
 img {
@@ -13,7 +12,7 @@ img {
 .header {
     font-size: 40px;
     font-weight: 200;
-    margin: 50px 20px;
+    margin: 50px 50px;
 }
 
 .story {
@@ -36,7 +35,7 @@ img {
     margin: 50px 0 0 0;
 }
 .personal-info {
-    margin: 0 20px;
+    margin: 0 50px;
     width: 30%;
 }
 .info-block {
