@@ -5,53 +5,51 @@ body {
 }
 
 img {
-    height: 250px;
+    height: 240px;
     width: 200px;
+    margin: auto;
 }
 
 .header {
     font-size: 40px;
     font-weight: 200;
+    margin: 50px 20px;
 }
 
 .story {
     font-size: 18px;
     font-weight: 200;
     line-height: 24px;
-    width: 30%;
-    margin: 0 30px;
+    margin: 30px 0 0 0;
+    width: 80%;
 }
+
+.story > a {
+    text-decoration: none;
+    color: #34b4eb;
+}
+
 .about {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    margin: 50px 0;
-
+    justify-content: space-between;
+    margin: 50px 0 0 0;
 }
 .personal-info {
-    margin: 0 150px;
+    margin: 0 20px;
+    width: 30%;
 }
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.documents {
+.info-block {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 30px 0;
 }
-.blog {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 30px 0;
-}
+
 .about-header {
     font-size: 32px;
     font-weight: 200;
-    margin: 0 0 15px 0;
+    margin: 15px 0;
 }
 
 .about-link a{
@@ -64,14 +62,18 @@ img {
     font-weight: 100;
     color: #34b4eb;
     line-height: 26px;
-
 }
 
 .about-link a:hover {
     color: blue;
 }
 
-.projects {
+.story-header {
     font-size: 32px;
     font-weight: 200;
+    margin: 0 0 15px 0;
+}
+
+.main {
+    width: 70%;
 }
