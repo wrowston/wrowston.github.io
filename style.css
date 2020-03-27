@@ -1,5 +1,12 @@
 body {
     font-family: San Francisco, Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 0 30px;
+}
+
+img {
+    height: 250px;
+    width: 200px;
 }
 
 .header {
@@ -11,11 +18,40 @@ body {
     font-size: 18px;
     font-weight: 200;
     line-height: 24px;
+    width: 30%;
+    margin: 0 30px;
 }
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 50px 0;
 
+}
+.personal-info {
+    margin: 0 150px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.documents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px 0;
+}
 .about-header {
     font-size: 32px;
     font-weight: 200;
+    margin: 0 0 15px 0;
 }
 
 .about-link a{
@@ -27,8 +63,15 @@ body {
     font-size: 16px;
     font-weight: 100;
     color: #34b4eb;
+    line-height: 26px;
+
 }
 
 .about-link a:hover {
     color: blue;
+}
+
+.projects {
+    font-size: 32px;
+    font-weight: 200;
 }
