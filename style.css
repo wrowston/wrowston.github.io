@@ -9,10 +9,16 @@ img {
     margin: auto;
 }
 
-.header {
+.logo {
     font-size: 46px;
     font-weight: 200;
     margin: 50px 50px;
+}
+
+.story-header {
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0 0 15px 0;
 }
 
 .story {
@@ -45,32 +51,25 @@ img {
     margin: 30px 0;
 }
 
-.about-header {
+.header {
     font-size: 32px;
     font-weight: 200;
     margin: 15px 0;
 }
 
-.about-link a{
+.link > a{
     text-decoration: none;
     color: #34b4eb;
 }
 
-.about-link {
+.link {
     font-size: 16px;
     font-weight: 100;
-    color: #34b4eb;
     line-height: 26px;
 }
 
 a:hover {
     color: blue;
-}
-
-.story-header {
-    font-size: 32px;
-    font-weight: 200;
-    margin: 0 0 15px 0;
 }
 
 .main {
